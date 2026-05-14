@@ -1,10 +1,8 @@
 # box-api
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+Box用のAPIラッパーライブラリです。
 
-An API wrapper library for Box.
-
-## Usage
+## 使い方
 
 ```js
 import { getSharedItems } from "https://code4fukui.github.io/box-api/getSharedItems.js";
@@ -13,10 +11,10 @@ const items = await getSharedItems(box_folder_url);
 console.log(items);
 ```
 
-## Reference
+## リファレンス
 
 - https://ja.developer.box.com/reference/
 
-## License
+## ライセンス
 
-MIT License — see [LICENSE](LICENSE).
+MIT License — 詳細は [LICENSE](LICENSE) を参照してください。
